@@ -1243,3 +1243,26 @@ img {
   transform: scale(1.1);
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .your-class {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
